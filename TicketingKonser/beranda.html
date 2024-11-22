@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket Konser</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color:#ffd7f2;
+            background-image: #ffddff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333333;
+        }
+        a{
+            color: #cb9df0;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        h1, h2{
+            font-size: 40px;
+            font-weight: 900;
+        } 
+        h3, h4, h5, h6 {
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 1ren;
+        }
+        p{
+            margin-top: 0;
+            margin-bottom: 1ren;
+        }
+        header{
+            background-color: white;
+            color: #f386c6;
+            padding: 10px 0 ;
+            font-size: large;
+        }
+        footer {
+            background-color: #f19ed2;
+            color: #6c757d;
+            padding: 10px 0 10px 0px;
+        }
+        .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(187, 185, 185);
+        }
+        .card:hover{
+            box-shadow: 0 4px 8px rgb(199, 198, 198);
+        }
+        .card-img-top{
+            border-radius: 8px 8px 0 0;
+        }
+        .card-title{
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+        .card-text{
+            font-size: 16px;
+            margin-bottom: 1ren;
+        }
+        .btn-primary {
+            background-color: #f7b5ca;
+            border-color: #f7b5ca;
+        }
+        .btn-primary:hover{
+            background-color: #f897e0;
+            border-color: #f8b9e3;
+        }
+        .navbar{
+            background-color: #f7acdf;
+        }
+        .navbar-brand {
+            font-style: bold;
+            font-family: fantasy;
+            font-size: 45px;
+            margin-left: 30px;
+            margin-right: 30px;
+            color: #b864fc;
+        }
+        .navbar-collapse{
+            margin-right: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: larger;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light background-color : #f897e0">
+        <a class="navbar-brand" href="#">Konser.id</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <ul class="navbar-nav">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="text-center">
+    <h1>Choose Your Ticket!</h1>
+    </header>
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            
+                            <img src="cover musik tulus monocrom.jpg" class="card-img-top" alt="Konser A">
+                            <div class="card-body">
+                                <h3 class="card-title">Tulus</h3>
+                                <p class="card-text">Tanggal: 7 Desember 2024</p>
+                                <p class="card-text">Lokasi: Stadion Kridosono, Yogyakarta</p>
+                                <p class="card-text">Harga: Rp 150.000 - Rp 350.000</p>
+                                <div class="text-center mt-4">
+                                    <a href="pembelian.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Bernadya Ribka Poster.jpg" class="card-img-top" alt="Konser C">
+                                <div class="card-body">
+                                    <h3 class="card-title">Bernadya</h3>
+                                    <p class="card-text">Tanggal 14 Desember 2024</p>
+                                    <p class="card-text">Lokasi: Lapangan Kenari, Yogyakarta</p>
+                                    <p class="card-text">Harga: Rp 125.000 - Rp 325.000</p>
+                                    <div class="text-center mt-4">
+                                        <a href="pembelian1.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Hindia.jpg" class="card-img-top" alt="Konser C">
+                                <div class="card-body">
+                                    <h3 class="card-title">Hindia</h3>
+                                    <p class="card-text">Tanggal 21 Desember 2024</p>
+                                    <p class="card-text">Lokasi: Std. Mandala Krida, Yogyakarta</p>
+                                    <p class="card-text">Harga: Rp 175.000 - Rp 375.000</p>
+                                    <div class="text-center mt-4">
+                                        <a href="pembelian2.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="ndx.jpg" class="card-img-top" alt="Konser C">
+                                <div class="card-body">
+                                    <h3 class="card-title">NDX AKA</h3>
+                                    <p class="card-text">Tanggal 2 Desember 2024</p>
+                                    <p class="card-text">Lokasi: Lapangan Kenari, Yogyakarta</p>
+                                    <p class="card-text">Harga: Rp 150.000 - Rp 200.000</p>
+                                    <div class="text-center mt-4">
+                                        <a href="pembelian3.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="GuyonWaton.jpg" class="card-img-top" alt="Konser C">
+                                <div class="card-body">
+                                    <h3 class="card-title">Guyon Waton</h3>
+                                    <p class="card-text">Tanggal 27 Desember 2024</p>
+                                    <p class="card-text">Lokasi: Jogja Expo Center, Yogyakarta</p>
+                                    <p class="card-text">Harga: Rp 160.000 - Rp 215.000</p>
+                                    <div class="text-center mt-4">
+                                        <a href="pembelian4.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="OIP.jpg" class="card-img-top" alt="Konser C">
+                                <div class="card-body">
+                                    <h3 class="card-title">Hivi!</h3>
+                                    <p class="card-text">Tanggal 28 Desember 2024</p>
+                                    <p class="card-text">Lokasi: Lapangan Pancasila UGM</p>
+                                    <p class="card-text">Harga: Rp 250.000 - Rp 315.000</p>
+                                    <div class="text-center mt-4">
+                                        <a href="pembelian5.html" class="btn-primary btn-lg">Beli Tiket</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center">
+        <p>Hak Cipta &copy; 2024 Ticketing Konser</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+</body>
+</html>
+
